@@ -7,7 +7,7 @@ using RecipesBase: apply_recipe
 
 import SparseArrays: sparse, nnz
 using OffsetArrays
-
 @testset "Standard basis" begin include("StandardBasis.jl") end
 @testset "ChebyshevT" begin include("ChebyshevT.jl") end
 @testset "Poly, Pade (compatability)" begin include("Poly.jl") end
+@testset "Hermite" begin include("Hermite.jl") end
